@@ -7,15 +7,15 @@ const Home = () => {
     const [services] = UseServices();
     return (
         <div className='banner-image'>
-            <img className='w-full'  src={banner} alt="" />
-            <p>
+            <img className='w-full' src={banner} alt="" />
+            <div className='service-card mt-3 container'>
                 {
                     services.map(service => <Service
                         key={service.id}
                         service={service}
                     ></Service>)
                 }
-            </p>
+            </div>
         </div>
     );
 };

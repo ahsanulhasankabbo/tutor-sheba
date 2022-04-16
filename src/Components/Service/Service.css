@@ -1,4 +1,17 @@
-.service-card{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.service-section{
+    width: 300px;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+}
+.service-image{
+    height: 300px!important;
+}
+.service-details{
+    padding: 5px;
+}
+.service-button{
+    background-color: rgb(17, 17, 51);
+    width: 100%;
+    padding: 10px;
+    color: white;
 }
