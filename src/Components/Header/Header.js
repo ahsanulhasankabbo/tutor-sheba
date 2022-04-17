@@ -13,19 +13,19 @@ const Header = () => {
     }
 
     return (
-        <div className='header px-24 h-20 bg-slate-700 text-purple-100 pt-6'>
+        <div className='header px-24 bg-slate-700 text-purple-100 pt-6'>
             <div>
-                <h1 className='text-3xl font-semibold'>Tutor Sheba</h1>
+                <h1 className='text-3xl font-semibold header-title'>Tutor Sheba</h1>
             </div>
             <nav className='header-manu'>
-                <Link className='text-xl ml-3' to='/home'>Home</Link>
-                <Link className='text-xl ml-3' to='/checkout'>Checkout</Link>
-                <Link className='text-xl ml-3' to='/blogs'>Blogs</Link>
-                <Link className='text-xl ml-3' to='/about'>About</Link>
+                <Link className='text-xl ml-3 nav-item' to='/home'>Home</Link>
+                <Link className='text-xl ml-3 nav-item' to='/checkout'>Checkout</Link>
+                <Link className='text-xl ml-3 nav-item' to='/blogs'>Blogs</Link>
+                <Link className='text-xl ml-3 nav-item' to='/about'>About</Link>
                 {
                     user ?
-                        <Link onClick={handleSignOut} className='text-xl ml-3' to='/about'>Signout</Link>
-                        : <Link className='text-xl ml-3' to='/login'>Login</Link>
+                        <Link onClick={handleSignOut} className='text-xl ml-3 nav-item' to='/about'>Signout</Link>
+                        : <Link className='text-xl ml-3 nav-item' to='/login'>Login</Link>
                 }
 
             </nav>

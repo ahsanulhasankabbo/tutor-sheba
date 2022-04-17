@@ -37,7 +37,7 @@ const Login = () => {
 
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     return (
-        <div>
+        <div className='login-container'>
             <div className='input-field my-10'>
                 <form onSubmit={handleUserSignIn}>
                     <label htmlFor="email">Email</label>
@@ -55,6 +55,7 @@ const Login = () => {
                 </div>
                 <button onClick={() => signInWithGoogle()} className='google'>
                     <img src={google} alt="" />
+                    <p className='ml-3'>sign in with google</p>
                 </button>
             </div>
         </div>

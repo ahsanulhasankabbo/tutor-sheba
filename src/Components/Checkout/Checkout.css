@@ -13,3 +13,13 @@
     width: 350px;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 800px){
+    .checkout{
+        width: 300px;
+        padding-left: 20px;
+    }
+    .checkout input{
+        width: 250px;
+    }
+}

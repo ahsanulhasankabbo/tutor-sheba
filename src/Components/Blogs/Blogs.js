@@ -1,8 +1,9 @@
 import React from 'react';
+import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div className='mx-32 my-8'>
+        <div className='blogs'>
             <div>
                 <h1 className='text-2xl font-semibold'>Difference between Authentication and Authorization.</h1>
                 <p>
@@ -15,7 +16,7 @@ const Blogs = () => {
                 <p>
                     By using firebase we can easily connect and use built-in third-party authentication providers, including Google, Facebook, Twitter, among others.It is very simple and time-saving alternative to writing full-fledged backend code for dynamic apps.Thats why we should use firebase. <br />
                     There are many options which we can implement as authentication.Like : <br />
-                    parse,back4app,kinvey,backendless,kuzzle,pubnub,kumulos,hoodie etc. Those are relatively new companies but still provide useful services to developers.
+                    parse,back4app,kinvey, backendless,kuzzle,pubnub,  kumulos,hoodie etc. Those are relatively new companies but still provide useful services to developers.
                 </p>
             </div>
             <div>
