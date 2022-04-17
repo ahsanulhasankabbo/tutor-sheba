@@ -6,8 +6,10 @@ import './Home.css'
 const Home = () => {
     const [services] = UseServices();
     return (
-        <div className='banner-image'>
-            <img className='w-full' src={banner} alt="" />
+        <div>
+            <div className='banner-image'>
+                <img className='w-full' src={banner} alt="" />
+            </div>
             <div className='service-card mt-3 container'>
                 {
                     services.map(service => <Service

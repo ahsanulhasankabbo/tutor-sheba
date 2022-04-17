@@ -1,0 +1,15 @@
+.checkout{
+    width: 600px;
+    padding-left: 100px;
+}
+.checkout input{
+    width: 350px;
+    margin-bottom: 15px;
+}
+.checkout-button{
+    background-color: rgb(27, 59, 48);
+    color: white;
+    padding: 10px;
+    width: 350px;
+    margin-bottom: 20px;
+}
