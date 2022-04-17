@@ -1,12 +1,34 @@
 .input-field{
-    
+    text-align: center;
 }
 .input-field input{
     border: 1px solid gray;
-    
     margin-bottom: 10px;
     box-sizing: border-box;
+    width: 400px;
 }
 .input-field label{
     text-align: left;
+    font-size: 22px;
+    text-align: right;
+}
+.input-field .submit{
+    font-size: 22px;
+    width: 200px;
+    background-color: rgb(17, 17, 51);
+    color: white;
+}
+.middle-break{
+    width: 400px;
+    margin: 20px auto;
+
+}
+.google{
+    margin: auto;
+    border: 1px solid gray;
+    padding: 10px ;
+}
+.google img{
+    width: 40px;
+    height: 40px;
 }
