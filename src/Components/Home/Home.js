@@ -32,7 +32,7 @@ const Home = () => {
 
                 <div className='expert-card'>
                     <div>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='expert-info' style={{ width: '18rem' }}>
                             <Card.Img className='user-image service-image' variant="top" src={studyPlace} />
                             <Card.Body className='service-details'>
                                 <Card.Title className='text-lg text-center font-bold'>Awesome study place</Card.Title>
@@ -52,7 +52,7 @@ const Home = () => {
                         </Card>
                     </div>
                     <div>
-                        <Card style={{ width: '18rem' , margin : '0 20px' }}>
+                        <Card style={{ width: '18rem' }}>
                             <Card.Img className='user-image service-image' variant="top" src={expert} />
                             <Card.Body className='service-details'>
                                 <Card.Title className='text-lg text-center font-bold'>Expert teachers</Card.Title>

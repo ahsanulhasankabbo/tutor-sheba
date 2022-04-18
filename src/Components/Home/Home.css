@@ -52,4 +52,7 @@
     .expert-card{
         display: block;
     }
+    .expert-info{
+        margin: auto;
+    }
 }
