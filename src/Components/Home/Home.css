@@ -1,17 +1,55 @@
-.banner-image img {
-    height: calc(100vh);
+.banner {
+    background-image: url(../Home/image/bannerimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
-
+.banner-info{
+    width: 40%;
+    color: rgb(211, 200, 200);
+    padding: 150px 50px ;
+    float: right;
+    
+}
 .service-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     margin: 0 auto;
 }
+.expert-section{
+    width: 80%;
+    margin: 50px auto;
+}
+.expert-details{
+    padding: 10px 200px;
+}
+.expert-card{
+    display: flex;
+    justify-content: center;
+}
+.user-image{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
 
 @media only screen and (max-width: 800px) {
     .service-card {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-info{
+        width: 100%;
+        padding: 100px 20px ;
+    }
+    .expert-section{
+        width: 95%;
+    }
+    .expert-details{
+        padding: 10px 10px;
+    }
+    .expert-card{
+        display: block;
     }
 }
