@@ -13,7 +13,8 @@ const Service = ({ service }) => {
                     <Card.Title className='text-lg text-center font-bold'>{name}</Card.Title>
                     <p className='font-semibold'>Course Cost : ${price}</p>
                     <Card.Text> <small>{about}</small> </Card.Text>
-                    <button className='service-button mt-3'><Link to='/checkout'>Checkout</Link></button>
+                    <Link to='/checkout'><button className='service-button mt-3'>Checkout</button></Link>
+                    {/* <button className='service-button mt-3'><Link to='/checkout'>Checkout</Link></button> */}
                 </Card.Body>
             </Card>
         </div>

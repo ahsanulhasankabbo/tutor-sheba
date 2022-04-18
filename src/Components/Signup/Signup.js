@@ -16,7 +16,7 @@ const Signup = () => {
         userEmail,
         loadingEmail,
         errorEmail,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification : true});
 
     const handleEmailBlur = event =>{
         setEmail(event.target.value)
@@ -68,6 +68,7 @@ const Signup = () => {
                 </div>
                 <button onClick={() => signInWithGoogle()} className='google'>
                     <img src={google} alt="" />
+                    <p className='ml-3'>sign in with google</p>
                 </button>
             </div>
         </div>

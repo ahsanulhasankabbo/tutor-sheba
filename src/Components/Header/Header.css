@@ -6,6 +6,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .header{
+        display: flex;
+        justify-content: space-between; 
+    }
     .header .nav-item{
         display: block;
         margin-left: 60px;
