@@ -14,7 +14,6 @@ const Service = ({ service }) => {
                     <p className='font-semibold'>Course Cost : ${price}</p>
                     <Card.Text> <small>{about}</small> </Card.Text>
                     <Link to='/checkout'><button className='service-button mt-3'>Checkout</button></Link>
-                    {/* <button className='service-button mt-3'><Link to='/checkout'>Checkout</Link></button> */}
                 </Card.Body>
             </Card>
         </div>

@@ -42,7 +42,7 @@ const Home = () => {
                         </Card>
                     </div>
                     <div>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='expert-info' style={{ width: '18rem' }}>
                             <Card.Img className='user-image service-image' variant="top" src={faculty} />
                             <Card.Body className='service-details'>
                                 <Card.Title className='text-lg text-center font-bold'>Unlimited facility</Card.Title>
@@ -52,7 +52,7 @@ const Home = () => {
                         </Card>
                     </div>
                     <div>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='expert-info' style={{ width: '18rem' }}>
                             <Card.Img className='user-image service-image' variant="top" src={expert} />
                             <Card.Body className='service-details'>
                                 <Card.Title className='text-lg text-center font-bold'>Expert teachers</Card.Title>
