@@ -7,7 +7,8 @@
 
 @media only screen and (max-width: 800px) {
     .header{
-        display: block;
+        display: flex;
+        justify-content: space-between; 
     }
     .header .nav-item{
         display: block;

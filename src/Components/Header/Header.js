@@ -24,7 +24,7 @@ const Header = () => {
                 <Link className='text-xl ml-3 nav-item' to='/about'>About</Link>
                 {
                     user ?
-                        <button onClick={handleSignOut} className='text-xl ml-3 nav-item'>Logout</button>
+                    <button onClick={handleSignOut} className='text-xl ml-3 nav-item'>Logout</button>
                         : <Link className='text-xl ml-3 nav-item' to='/login'>Login</Link>
                 }
 
