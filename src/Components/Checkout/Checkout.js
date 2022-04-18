@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Checkout.css'
 
 const Checkout = () => {
@@ -9,23 +10,23 @@ const Checkout = () => {
             <hr />
             <div className='mt-5'>
                 <p>Name on card</p>
-                <input className='border' type="text" />
+                <input className='border' type="text" required/>
             </div>
             <div>
                 <p>Card number</p>
-                <input className='border' type="number" name="number" id="" />
+                <input className='border' type="number" name="number" id="" required/>
             </div>
             <div>
                 <div>
                     <p>valid thought</p>
-                    <input className='border' type="datetime-local" name="" id="" />
+                    <input className='border' type="datetime-local" name="" id="" required/>
                 </div>
                 <div>
                     <p>CVC code</p>
-                    <input className='border' type="number" name="number" id="" />
+                    <input className='border' type="number" name="number" id="" required/>
                 </div>
             </div>
-            <button className='checkout-button'>Purchase</button>
+            <Link to='/purchase'><button className='checkout-button'>Purchase</button></Link>
         </div>
     );
 };

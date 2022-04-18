@@ -8,6 +8,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import NotFound from './Components/NotFound/NotFound';
+import Purchase from './Components/Purchase/Purchase';
 import RequireAuth from './Components/RequirAuth/RequirAuth';
 import Signup from './Components/Signup/Signup';
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
+        <Route path='/purchase' element={<Purchase></Purchase>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
